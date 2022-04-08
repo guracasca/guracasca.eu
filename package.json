@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ELEVENTY_ENV=production npx @11ty/eleventy",
-    "serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve"
+    "build": "env ELEVENTY_ENV=production npx @11ty/eleventy",
+    "serve": "env ELEVENTY_ENV=development npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "Dumitru Cantea",
