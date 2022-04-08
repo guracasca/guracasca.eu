@@ -10,7 +10,7 @@
   <div class="p-3">
     {% set comma = joiner() %}
     {% for tag in item.data.tags %}
-      {{ comma() }} <a href="/tags/{{ tag | tagParam }}" class="is-uppercase is-size-7 has-text-grey-dark">{{ tag }}</a>
+      {{ comma() }} <a href="/tags/{{ tag | tagParam }}/" class="is-uppercase is-size-7 has-text-grey-dark">{{ tag }}</a>
     {% endfor %}
     <h3 class="card-title mt-0 mb-4 is-size-4 has-text-weight-bold has-text-grey-dark"><a href="{{ item.url }}" class="has-text-dark">{{ item.data.title }}</a></h3>
     <p class="has-text-grey-dark">{{ item.data.description | descriptionLength }}</p>
