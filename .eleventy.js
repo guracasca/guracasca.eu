@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
     // eleventyConfig.addPassthroughCopy("content/_css");
     eleventyConfig.addPassthroughCopy("content/_images");
     eleventyConfig.addPassthroughCopy("htaccess");
+    eleventyConfig.addPassthroughCopy("CNAME");
 
     /* --- ADS --- */
     eleventyConfig.addNunjucksShortcode("topIndexAd", function() {

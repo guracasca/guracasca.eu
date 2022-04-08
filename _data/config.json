@@ -1,10 +1,11 @@
 {
   "title": "Gurăcască.eu",
-  "url": "/",
   "domain": "https://www.guracasca.eu",
   "language": "ro",
   "search": true,
   "logoUrl": "/_images/once.png",
+  "schema": "https://",
+  "url": "https://www.guracasca.eu",
   "showCookiesAdvice": false,
   "cookiesAdviceText": "Cookies advice text",
   "cookiesAdviceMoreInfoAnchor": "More Info",
