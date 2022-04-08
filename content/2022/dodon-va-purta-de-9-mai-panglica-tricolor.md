@@ -3,7 +3,7 @@ layout: post.njk
 title: Igor Dodon va purta de 9 mai panglica tricolor
 tags: ['Igor Dodon', '9 Mai', 'Sfântul Gheorghe', 'Tricolor']
 featuredImage: /_images/2022/dodon-9-mai-tricolor.jpg
-permalink: /2022/dodon-va-purta-de-9-mai-panglica-tricolor/
+permalink: /2022/dodon-va-purta-de-9-mai-panglica-tricolor.html
 date: 2022-04-08
 description: Igor Dodon preferă să promoveze simbolurile altor state de 9 mai, chiar dacă încalcă legea, în detrimentul tricolorului pe care l-a sărutat când a dat jurământul.
 ---
