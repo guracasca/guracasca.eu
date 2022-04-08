@@ -1,0 +1,51 @@
+{
+  "title": "Gurăcască",
+  "url": "/",
+  "domain": "https://guracasca.eu",
+  "language": "ro",
+  "search": true,
+  "logoUrl": "/_images/once.png",
+  "showCookiesAdvice": false,
+  "cookiesAdviceText": "Cookies advice text",
+  "cookiesAdviceMoreInfoAnchor": "More Info",
+  "cookiesAdviceMoreInfoUrl": "/cookies/",
+  "googleAnalyticsID": "",
+  "footerLinks": [
+    {
+      "anchor": "Legal Advice",
+      "url": "#"
+    },
+    {
+      "anchor": "Cookies Advice",
+      "url": "#"
+    }
+  ],
+  "navbarMenu": [
+    {
+      "anchor": "Despre",
+      "url": "/despre/"
+    },
+    {
+      "anchor": "Contact",
+      "url": "#"
+    }
+  ],
+  "navbarButtons": [
+    {
+      "anchor": "Suscribe",
+      "class": "is-small is-danger",
+      "url": "about"
+    }
+  ],
+  "social": {
+    "facebook": "https://facebook.com",
+    "twitter": "https://twitter.com",
+    "pinterest": "https://pinterest.com",
+    "instagram": "https://instagram.com",
+    "github": "https://github.com"
+  },
+  "showShareButtons": true,
+  "showDate": true,
+  "showRelatedPosts": true,
+  "relatedPostsTitle": "Pe aceeași temă"
+}

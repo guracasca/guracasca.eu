@@ -1,0 +1,33 @@
+---
+title: Pagina nu a fost găsită
+permalink: 404.html
+layout: 404.njk
+eleventyExcludeFromCollections: true
+
+---
+
+
+<div class="section">
+  <div class="container">
+    <div class="has-text-centered my-6">
+      <h1 class="title is-1 is-spaced">Eroare #404</h1>
+      <h2 class="subtitle is-4">Pagina nu a existat vreo dată sau a fost ștearsă.</h2>
+      <a href="/" class="button">Vezi pagina principală</a>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="columns is-variable is-5 is-multiline is-mobile">
+    {# Lastest 3 articles #}
+    {%- for item in collections.all | reverse -%}
+      {% if loop.index0 < 3 %}
+        <div class="column is-one-third-tablet is-full-mobile mb-5">
+          {% include "card.njk" %}
+        </div>
+      {% endif %}
+    {%- endfor -%}
+  </div>
+  </div>
+</div>
