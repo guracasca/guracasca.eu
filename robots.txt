@@ -1,0 +1,3 @@
+
+User-agent: *
+sitemap: https://https://guracasca.eu/sitemap.xml
