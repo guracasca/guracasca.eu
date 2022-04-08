@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ELEVENTY_ENV=production npx @11ty/eleventy",
-    "serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve"
+    "serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "publish": "node publish.js"
   },
   "keywords": [],
   "author": "Dumitru Cantea",

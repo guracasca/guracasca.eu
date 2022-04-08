@@ -1,5 +1,5 @@
 {
-  "title": "Gurăcască",
+  "title": "Gurăcască.eu",
   "url": "/",
   "domain": "https://guracasca.eu",
   "language": "ro",
@@ -10,16 +10,7 @@
   "cookiesAdviceMoreInfoAnchor": "More Info",
   "cookiesAdviceMoreInfoUrl": "/cookies/",
   "googleAnalyticsID": "",
-  "footerLinks": [
-    {
-      "anchor": "Legal Advice",
-      "url": "#"
-    },
-    {
-      "anchor": "Cookies Advice",
-      "url": "#"
-    }
-  ],
+  "footerLinks": [],
   "navbarMenu": [
     {
       "anchor": "Despre",
@@ -30,19 +21,13 @@
       "url": "#"
     }
   ],
-  "navbarButtons": [
-    {
-      "anchor": "Suscribe",
-      "class": "is-small is-danger",
-      "url": "about"
-    }
-  ],
+  "navbarButtons": [],
   "social": {
     "facebook": "https://facebook.com",
     "twitter": "https://twitter.com",
     "pinterest": "https://pinterest.com",
     "instagram": "https://instagram.com",
-    "github": "https://github.com"
+    "github": "https://github.com/guracasca/guracasca.eu"
   },
   "showShareButtons": true,
   "showDate": true,

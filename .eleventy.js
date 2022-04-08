@@ -70,7 +70,7 @@ module.exports = function (eleventyConfig) {
     // Formato de Fecha
     const { DateTime } = require("luxon");
     eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).setLocale('es').toLocaleString(DateTime.DATE_SHORT);
+    return DateTime.fromJSDate(dateObj).setLocale('ro').toLocaleString(DateTime.DATE_SHORT);
     });
 
     // Número de caracteres para Card
