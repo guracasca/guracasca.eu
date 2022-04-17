@@ -3,7 +3,7 @@
   "domain": "https://www.guracasca.eu",
   "language": "ro",
   "search": true,
-  "logoUrl": "/_images/once.png",
+  "logoUrl": "/_images/guracasca.svg",
   "schema": "https://",
   "url": "https://www.guracasca.eu",
   "showCookiesAdvice": false,
@@ -16,10 +16,6 @@
     {
       "anchor": "Despre",
       "url": "/despre/"
-    },
-    {
-      "anchor": "Contact",
-      "url": "#"
     }
   ],
   "navbarButtons": [],

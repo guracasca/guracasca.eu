@@ -8,13 +8,9 @@
       </a>
       <a class="navbar-item" href="/">
         {% if config.logoUrl.length > 0 %}
-          {#
-            Si logo desde fichero: <img src="{{ config.logoUrl }}" alt="{{ config.title }}"/>
-            Si logo insertado como SVG: {% logoSVG %}
-          #}
-          <img src="{{ config.logoUrl }}" alt="{{ config.title }}"/>
+          <img id="logo-img" src="{{ config.logoUrl }}" alt="{{ config.title }}"/>
         {% else %}
-          <span class="logo">{{ config.title }}</span>
+          <span class="logo-text">{{ config.title }}</span>
         {% endif %}
       </a>
       <a id="share-mobile" href="#" class="navbar-item is-hidden-desktop ml-auto mr-2" aria-label="share button for mobile">

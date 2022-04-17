@@ -28,6 +28,10 @@ body {
   }
 }
 
+.logo-text {
+  color: #ef2e55;
+}
+
 /* Navbar */
 @media (max-width: 1023px) {
   body {
