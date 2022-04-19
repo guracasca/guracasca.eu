@@ -12,7 +12,7 @@ pagination:
   <div class="container">
 
     <div class="columns is-variable is-5-desktop is-multiline is-mobile">
-      {% for item in pagination.items | reverse %}
+      {% for item in pagination.items %}
         <div class="column is-one-third-tablet is-full-mobile mb-5">
           {% include "card.njk" %}
         </div>
