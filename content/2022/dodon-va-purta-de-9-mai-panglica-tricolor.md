@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Igor Dodon va purta de 9 mai panglica tricolor
-tags: ['Igor Dodon', '9 Mai', 'Sfântul Gheorghe', 'Tricolor']
+tags: ['Igor Dodon', '9 Mai', 'Sfântul Gheorghe', 'Tricolor', 'Moldova']
 featuredImage: /_images/2022/dodon-9-mai-tricolor.jpg
 permalink: /2022/dodon-va-purta-de-9-mai-panglica-tricolor.html
 date: 2022-04-17
