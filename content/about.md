@@ -7,10 +7,7 @@ eleventyExcludeFromCollections: true
 
 # {{ title }}
 
-Intenția proiectului este să informeze corect, cu ajutorul titlurilor incredibile, persoanele mai puțin informate.
-
-Există multe persoane tentate să creadă în diferite teorii ale conspirației. Ele sunt ținta noastră.
-Noi dorim să-i "ademenim" pentru a le arăta informație credibilă (atât cât oferă sursele de știri).
+Proiectul genereaza articole evident false cu ajutorul inteligenții artificiale, fiind un test al nostru pentru AI și societate.
 
 Deci, bun venit gură-cască!
 
