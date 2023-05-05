@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Turiștii americani invadează România
-tags: ['Turism', 'România', 'SUA', 'New York']
+tags: ['turism', 'România', 'SUA', 'New York']
 featuredImage: /_images/2022/turistii-sua-invadeaza-romania.jpg
 permalink: /2022/turistii-americani-invadeaza-romania.html
 date: 2022-04-19

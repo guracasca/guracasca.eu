@@ -1,3 +1,6 @@
+const simpleTag = (text) =>
+  text.trim().replace(/\s+/g, " ").replace(/\s/g, "-").toLowerCase();
+
 module.exports = function (eleventyConfig) {
   // Carpetas que añade directamente al directorio de salida
   // eleventyConfig.addPassthroughCopy("content/_css");
@@ -87,9 +90,7 @@ module.exports = function (eleventyConfig) {
     return resultado;
   });
 
-  eleventyConfig.addFilter("tagParam", function (text) {
-    return text.trim().replace(/\s+/g, " ").replace(/\s/g, "-").toLowerCase();
-  });
+  eleventyConfig.addFilter("tagParam", simpleTag);
 
   //Order Post by Date
   eleventyConfig.addCollection("orderByDate", function (collectionApi) {
@@ -107,8 +108,9 @@ module.exports = function (eleventyConfig) {
       collection.map((item) => {
         for (etiqueta of etiquetas) {
           // console.log(item.data.tags.length)
-          if (item.data.tags && item.data.tags.includes(etiqueta)) {
-            filtrados.add(item);
+          if (item.data.tags) {
+            const tags = item.data.tags.map(simpleTag);
+            if (tags.includes(simpleTag(etiqueta))) filtrados.add(item);
           }
         }
       });
